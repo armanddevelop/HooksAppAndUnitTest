@@ -1,0 +1,140 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test to AppRouter component Snapshot to AppRouter component 1`] = `
+<AppRouter>
+  <BrowserRouter>
+    <Router
+      location={
+        Object {
+          "hash": "",
+          "key": "default",
+          "pathname": "/",
+          "search": "",
+          "state": null,
+        }
+      }
+      navigationType="POP"
+      navigator={
+        Object {
+          "action": "POP",
+          "back": [Function],
+          "block": [Function],
+          "createHref": [Function],
+          "forward": [Function],
+          "go": [Function],
+          "listen": [Function],
+          "location": Object {
+            "hash": "",
+            "key": "default",
+            "pathname": "/",
+            "search": "",
+            "state": null,
+          },
+          "push": [Function],
+          "replace": [Function],
+        }
+      }
+    >
+      <div>
+        <NavBar>
+          <nav
+            className="navbar navbar-expand-sm navbar-dark bg-dark"
+          >
+            <div
+              className="container-fluid"
+            >
+              <div
+                className="collapse navbar-collapse"
+                id="navbarNavAltMarkup"
+              >
+                <div
+                  className="navbar-nav"
+                >
+                  <NavLink
+                    aria-current="page"
+                    className="nav-link"
+                    exact="true"
+                    to="/"
+                  >
+                    <Link
+                      aria-current="page"
+                      className="nav-link active"
+                      exact="true"
+                      to="/"
+                    >
+                      <a
+                        aria-current="page"
+                        className="nav-link active"
+                        exact="true"
+                        href="/"
+                        onClick={[Function]}
+                      >
+                        Home
+                      </a>
+                    </Link>
+                  </NavLink>
+                  <NavLink
+                    className="nav-link"
+                    exact="true"
+                    to="/login"
+                  >
+                    <Link
+                      className="nav-link"
+                      exact="true"
+                      to="/login"
+                    >
+                      <a
+                        className="nav-link"
+                        exact="true"
+                        href="/login"
+                        onClick={[Function]}
+                      >
+                        Login
+                      </a>
+                    </Link>
+                  </NavLink>
+                  <NavLink
+                    className="nav-link"
+                    exact="true"
+                    to="/about"
+                  >
+                    <Link
+                      className="nav-link"
+                      exact="true"
+                      to="/about"
+                    >
+                      <a
+                        className="nav-link"
+                        exact="true"
+                        href="/about"
+                        onClick={[Function]}
+                      >
+                        About
+                      </a>
+                    </Link>
+                  </NavLink>
+                </div>
+              </div>
+            </div>
+          </nav>
+        </NavBar>
+        <div
+          className="container"
+        >
+          <Routes>
+            <HomeScreen>
+              <div>
+                <h1>
+                  HomeScreen
+                </h1>
+                <hr />
+                <pre />
+              </div>
+            </HomeScreen>
+          </Routes>
+        </div>
+      </div>
+    </Router>
+  </BrowserRouter>
+</AppRouter>
+`;

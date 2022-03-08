@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test to MultipleCustomHooks SnapShot MultipleCustomHooks 1`] = `
+<Fragment>
+  <h1>
+    Breaking bad quotes
+  </h1>
+  <hr />
+  <div
+    className="alert alert-info text-center"
+  >
+    Loading..........
+  </div>
+</Fragment>
+`;

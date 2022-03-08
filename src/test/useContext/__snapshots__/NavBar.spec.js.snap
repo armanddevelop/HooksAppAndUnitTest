@@ -1,0 +1,43 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test to NavBar component snapshot to NavBar component 1`] = `
+<nav
+  className="navbar navbar-expand-sm navbar-dark bg-dark"
+>
+  <div
+    className="container-fluid"
+  >
+    <div
+      className="collapse navbar-collapse"
+      id="navbarNavAltMarkup"
+    >
+      <div
+        className="navbar-nav"
+      >
+        <NavLink
+          aria-current="page"
+          className="nav-link"
+          exact="true"
+          to="/"
+        >
+          Home
+        </NavLink>
+        <NavLink
+          className="nav-link"
+          exact="true"
+          to="/login"
+        >
+          Login
+        </NavLink>
+        <NavLink
+          className="nav-link"
+          exact="true"
+          to="/about"
+        >
+          About
+        </NavLink>
+      </div>
+    </div>
+  </div>
+</nav>
+`;

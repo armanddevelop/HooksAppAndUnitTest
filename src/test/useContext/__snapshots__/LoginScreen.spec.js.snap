@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test to LognScreen Snapshot to LognScreen 1`] = `
+<LognScreen>
+  <div>
+    <h1>
+      Login Screen
+    </h1>
+    <hr />
+    <button
+      className="btn btn-primary"
+      onClick={[Function]}
+    >
+      User
+    </button>
+  </div>
+</LognScreen>
+`;

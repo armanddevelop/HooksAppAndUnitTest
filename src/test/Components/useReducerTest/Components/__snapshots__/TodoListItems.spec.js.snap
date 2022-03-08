@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test for TodoListItems Take Snapshot to todoListItems 1`] = `
+<li
+  className="list-group-item"
+>
+  <p
+    className=""
+    onClick={[Function]}
+  >
+    1
+    .- 
+    aprender Docker
+  </p>
+  <button
+    className="btn btn-danger"
+    onClick={[Function]}
+  >
+    Delete
+  </button>
+</li>
+`;

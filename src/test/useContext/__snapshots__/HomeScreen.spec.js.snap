@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test to HomeScreen Component Snapshot to HomeScreen Component 1`] = `
+<HomeScreen>
+  <div>
+    <h1>
+      HomeScreen
+    </h1>
+    <hr />
+    <pre>
+      {"name":"alicha","email":"euche@test.com"}
+    </pre>
+  </div>
+</HomeScreen>
+`;

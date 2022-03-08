@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Unit Test to TodoList component Snapshot to TodoList 1`] = `
+<ul
+  className="list-group list-group-flush"
+>
+  <TodoListItems
+    description="aprender a hacer unit test in React"
+    done={false}
+    handleDelete={[MockFunction]}
+    handleToogle={[MockFunction]}
+    id={1}
+    idx={0}
+    key="1"
+  />
+  <TodoListItems
+    description="aprender mongo"
+    done={false}
+    handleDelete={[MockFunction]}
+    handleToogle={[MockFunction]}
+    id={2}
+    idx={1}
+    key="2"
+  />
+</ul>
+`;

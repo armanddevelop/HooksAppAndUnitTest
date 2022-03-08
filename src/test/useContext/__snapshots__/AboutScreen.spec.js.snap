@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Testo to AboutScreen component snapshot to AboutScreen 1`] = `
+<AboutScreen>
+  <div>
+    <h1>
+      AboutScreen
+    </h1>
+    <hr />
+    <pre>
+      {"name":"alicha","email":"euche@test.com"}
+    </pre>
+    <button
+      className="btn btn-warning"
+      onClick={[Function]}
+    >
+      Log out
+    </button>
+  </div>
+</AboutScreen>
+`;
